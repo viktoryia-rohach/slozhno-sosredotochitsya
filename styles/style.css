@@ -90,7 +90,7 @@
   color: var(--brand-color, #db00ff);
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  line-height: 129.53px;
+  line-height: 82.5%;
   text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
 }
 
