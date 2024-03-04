@@ -274,8 +274,7 @@
   .header {
     display: grid;
     grid-template-rows: 1fr min-content 1fr;
-    gap: 0; /* Убираем отступы между строками */
-    align-items: stretch; /* Высота блока привязана к размеру окна пользователя (1fr) */
+    gap: 0;
     padding-inline-start: 20px; /* Левый отступ */
     padding-inline-end: 20px; /* Правый отступ */
   }
@@ -287,7 +286,7 @@
 
   .header__title {
     justify-self: end; /* Выравниваем по правому краю */
-    inline-size: clamp(364px, calc(1000% - 10px), 490px); /* Изменено на 50% */
+    inline-size: clamp(364px, calc(1000% - 10px), 490px); 
   }
 
   .main {
