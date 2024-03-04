@@ -253,7 +253,7 @@
     grid-row-start: span 2;
   }
 
-  .header {
+  /* .header {
     padding-inline-start: 0;
   }
 
@@ -270,7 +270,30 @@
   .main {
     gap: 80px;
     padding: 60px 20px;
-}
+  } */
+  .header {
+    display: grid;
+    grid-template-rows: 1fr min-content 1fr;
+    gap: 0; /* Убираем отступы между строками */
+    align-items: stretch; /* Высота блока привязана к размеру окна пользователя (1fr) */
+    padding-inline-start: 20px; /* Левый отступ */
+    padding-inline-end: 20px; /* Правый отступ */
+  }
+
+  .header__theme-menu {
+    margin: 0;
+    align-self: stretch; /* Занимает всю доступную высоту (1fr) */
+  }
+
+  .header__title {
+    justify-self: end; /* Выравниваем по правому краю */
+    inline-size: clamp(364px, calc(1000% - 10px), 490px); /* Изменено на 50% */
+  }
+
+  .main {
+    gap: 80px;
+    padding: 60px 20px;
+  }
 }
 
 @media (width >=1024px) {
