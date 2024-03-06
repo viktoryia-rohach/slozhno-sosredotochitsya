@@ -46,10 +46,11 @@
 
 .link {
   text-decoration: none;
+  outline:none;
 }
 
 .link:hover {
-  text-decoration: underline;
+  border-block-end: 1px solid currentColor;
 }
 
 .link:focus {
@@ -180,7 +181,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border-color: var(--secondary-color-o-light, #ff007040);
+  border-color: var(--secondary-color,#ff0070);
 }
 
 .header__theme-menu-button:focus {
