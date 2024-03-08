@@ -8,6 +8,7 @@
   --page-background-color: var(--color-black-1, #000028);
   --page-background-image: url("../images/cover-image-dark.png");
   --rec-decor-visibility: visible;
+  --hover-color: rgba(255, 0, 112, 0.4);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,5 +22,6 @@
     --page-background-color: var(--color-black-1, #000028);
     --page-background-image: url("../images/cover-image-dark.png");
     --rec-decor-visibility: visible;
+    --hover-color: rgba(255, 0, 112, 0.4);
   }
 }

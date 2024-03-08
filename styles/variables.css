@@ -23,4 +23,6 @@
   --page-font-family: "IBM Plex mono", monospace;
   --page-background-image: url("../images/cover-image.png");
   --page-background-color: var(--black-deep, #000028);
+  --hover-color: rgba(255, 0, 112, 0.4);
+
 }

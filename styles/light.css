@@ -8,6 +8,7 @@
   --page-background-color: var(--color-pink-1, #fff1f7);
   --page-background-image: url("../images/cover-image-light.png");
   --rec-decor-visibility: hidden;
+  --hover-color: rgba(50, 49, 45, 0.4);
 }
 
 @media (prefers-color-scheme: light) {
@@ -21,5 +22,6 @@
     --page-background-color: var(--color-pink-1, #fff1f7);
     --page-background-image: url("../images/cover-image-light.png");
     --rec-decor-visibility: hidden;
+    --hover-color: rgba(50, 49, 45, 0.4);
   }
 }

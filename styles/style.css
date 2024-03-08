@@ -113,6 +113,10 @@
   background: var(--accent-color, #ff0070);
 }
 
+.article-title {
+  font-weight:400;
+}
+
 .section {
   display: grid;
   gap: 20px;
@@ -181,7 +185,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border-color: var(--secondary-color,#ff0070);
+  outline: 1px solid var(--hover-color);
 }
 
 .header__theme-menu-button:focus {
